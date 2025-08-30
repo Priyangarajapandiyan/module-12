@@ -15,7 +15,7 @@ Use a while loop to traverse the linked list:
 Print the data of the current node.
 Move to the next node using the next pointer.
 Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -64,7 +64,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 Output:
 
@@ -82,6 +82,7 @@ If head is equal to NULL, Print "Stack is empty."
 Else Proceed to the next step.
 Set head to point to the next node in the stack.
 Program:
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -147,6 +148,7 @@ int main() {
     return 0;
 }
 
+```
 
 Output:
 
@@ -163,6 +165,8 @@ Print the data of the current node pointed to by front
 Update front to point to the next node.
 End the display function.
 Program:
+
+```
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -220,6 +224,8 @@ int main() {
     return 0;
 }
 
+```
+
 
 Output:
 
@@ -242,6 +248,8 @@ Set the next pointer of the current rear to point to the new node p.
 End of Enqueue Operation
 Program:
 
+```
+
 // Function to enqueue (insert) element into queue
 void enqueue(int value) {
     struct Node* p = (struct Node*)malloc(sizeof(struct Node));
@@ -257,6 +265,8 @@ void enqueue(int value) {
     }
     printf("%d enqueued to queue\n", value);
 }
+
+```
 
 Output:
 
@@ -276,6 +286,8 @@ Algorithm:
 Check if the queue is empty: o If the queue is empty (i.e., the front pointer is NULL), return an error or a message indicating that the queue is empty.
 Access the front element: o If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
 Program:
+
+```
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -345,6 +357,7 @@ int main() {
     return 0;
 }
 
+```
 
 Output:
 
